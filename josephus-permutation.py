@@ -3,7 +3,6 @@
 
 def who_goes_free(n, k):
   lst = list(range(0,n))
-
   start = k
   while len(lst) > 1:
     for item in lst:
